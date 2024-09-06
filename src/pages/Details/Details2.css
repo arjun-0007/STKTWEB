@@ -1,0 +1,50 @@
+
+
+.coiner {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #f5d7d7;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styling */
+header h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+section p {
+    margin-bottom: 10px;
+}
+
+section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+section ul li strong {
+    color: #333;
+}
+
+/* Conclusion Styling */
+.conclusion p {
+    font-style: italic;
+}

@@ -1,0 +1,143 @@
+.crd {
+  background-color: rgb(205, 211, 208);
+  margin: 1rem;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+.crd:hover {
+  box-shadow: 10px 10px 20px 10px rgba(24, 24, 24, 0.273) !important;
+  transition: all 0.3s linear !important;
+}
+
+.crd-body {
+  padding: 2rem 0 !important;
+  text-align: center;
+}
+
+.crd-title {
+  font-size: 1.1rem;
+}
+
+.crd-text {
+  padding: 0.3rem 1rem;
+  font-size: 1rem;
+}
+
+.tn {
+  color: blue;
+  font-weight: bold;
+  text-decoration: none; /* Added to remove underline */
+}
+
+.overflow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.crd-img-top {
+  transform: scale(1);
+  transition: all 0.2s ease-in-out;
+  height: 10rem;
+  width: 16rem;
+  padding: 1rem;
+  object-fit: cover; /* Ensures image scales correctly */
+}
+
+.crd-img-top:hover {
+  transform: scale(1.2) !important;
+  padding: 1rem !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .crd-img-top {
+    height: 8rem;
+    width: 12rem;
+  }
+  
+  .crd-title {
+    font-size: 1rem;
+  }
+
+  .crd-text {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .crd {
+    margin: 0.5rem;
+  }
+  
+  .crd-img-top {
+    height: 6rem;
+    width: 9rem;
+  }
+
+  .crd-title {
+    font-size: 0.9rem;
+  }
+
+  .crd-text {
+    font-size: 0.8rem;
+    padding: 0.2rem 0.5rem;
+  }
+
+  .tn {
+    font-size: 0.9rem;
+  }
+}
+
+
+
+
+/* .crd:hover {
+    box-shadow: 10px 10px 20px 10px rgba(24, 24, 24, 0.273) !important;
+    transition: all 0.3s linear !important;
+   
+  }
+  .bak{
+    background-color: rgb(205, 211, 208);
+    margin:1rem;
+    border:1px black;
+  }
+  .crd-body {
+    padding: 2rem 0 !important;
+    text-align: center;
+  }
+  .crd-title{
+    font-size:1.1rem;
+  }
+  .crd-text {
+    padding: 0.3rem 1rem;
+    font-size: 1rem;
+  }
+  .tn{
+    color:blue;
+    font-weight:bold;
+
+  }
+  
+  .overflow {
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .crd-img-top {
+    transform: scale(1);
+    transition: all 0.2s ease-in-out;
+    height:10rem;
+    width:16rem;
+    padding:1rem;
+    
+  }
+  
+  .crd-img-top:hover {
+    transform: scale(1.2) !important;
+    padding:1rem !important;
+  } */

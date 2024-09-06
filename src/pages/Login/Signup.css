@@ -1,0 +1,113 @@
+.ou{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:fit-content;
+  background: url("https://images.unsplash.com/photo-1515339760107-1952b7a08454?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  
+}
+.lgin{
+  font-weight: bold;
+}
+.b{
+  margin-left:9rem;
+}
+.addser {
+  background-color: white;
+  width: 35vw;
+  height:33rem;
+  margin:2rem;
+  padding:2rem;
+  border-radius: 1rem;
+  box-shadow: 8px 8px 8px 8px black;
+}
+.buutn{
+  box-shadow:1px 1px 1px black;
+  margin:auto;
+  width:8rem;
+  height:3rem;
+  color:white; 
+  background-color:blueviolet;
+  font-size:1.5rem;
+  border-radius:1rem;
+}
+.addserform .inputp {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.paar{
+  color:blue;
+}
+.l{
+  text-align:left;
+  font-weight: bold;
+}
+
+.addserform .inputp label {
+  margin-top: 10px;
+}
+
+.addserform .inputp input {
+  margin-top: 5px;
+  padding: 10px;
+} 
+/* .tn{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.inputp button {
+  margin-top: 10px;
+}
+.ln {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.ln .btn.btn-primary {
+  width: 50%;
+}
+
+.addser h3 {
+  text-align: center;
+  font-weight: bold;
+  font-size:2rem;
+  color: darkcyan;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+@media screen and (min-width: 320px) and (max-width: 426px) {
+  .buutn{
+    box-shadow:1px 1px 1px black;
+    margin:auto;
+    width:5rem;
+    height:2rem;
+    color:white; 
+    background-color:blueviolet;
+    font-size:1rem;
+    border-radius:0.5rem;
+}
+.addser h3 {
+  text-align: center;
+  font-weight: bold;
+  font-size:1.4rem;
+  color: darkcyan;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+.addser {
+  background-color: white;
+  width: 60vw;
+  height:33rem;
+  margin:2rem;
+  padding:2rem;
+  border-radius: 1rem;
+  box-shadow: 8px 8px 8px 8px black;
+}
+.paar{
+  font-size: 0.8rem;
+}
+}

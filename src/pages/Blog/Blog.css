@@ -1,0 +1,36 @@
+.rw{
+    display: grid; /* Change to flex if using flexbox method */
+    grid-template-columns: repeat(1, 1fr); /* Use this for Grid layout */
+    gap: 1rem; /* Space between cards */
+   /* display:flex;
+    flex-direction:column;
+    /* margin-top: 1rem; * / */
+}
+.conainer{
+    /* margin:3rem; */
+     background-color: rgb(249, 224, 224); 
+}
+
+@media screen and (min-width:320px) and (max-width:426px) {
+    .rw{
+        display:flex;
+        flex-direction:column;
+    }
+    
+}
+@media screen and (min-width:426px) and (max-width:766px) {
+    .rw{
+        display:flex;
+        flex-direction:column;
+    }
+    
+}
+@media screen and (min-width:769px) and (max-width:1025px) {
+    .rw{
+        display:flex;
+        flex-direction:column;
+        width:70vw;
+        margin:auto;
+    }
+    
+}

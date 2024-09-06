@@ -1,0 +1,47 @@
+/* Container for the main content */
+.coer {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ebcdcd;
+    
+}
+
+
+/* Heading Styles */
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #444;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Paragraph and List Styles */
+p {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Emphasize strong text */
+strong {
+    color: #000;
+}

@@ -1,0 +1,43 @@
+.tontainer {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #f5d7d7;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styling */
+header h1 {
+    font-size: 2.2em;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+header p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+/* Skin Type Sections */
+.skin-type {
+    margin-bottom: 30px;
+}
+
+.skin-type h2 {
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.skin-type p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.skin-type h3 {
+    font-size: 1.5em;
+    margin-top: 20
+}
