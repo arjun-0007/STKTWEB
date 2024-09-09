@@ -7,7 +7,7 @@ import './VideoCarousel.css'; // Import custom styles if needed
 const videos = [
   { src: 'https://www.youtube.com/embed/lhnrvhSVjFw?si=hVSJlFcZcv1q0Egd', title: 'Video 1' },
   { src: 'https://www.youtube.com/embed/LKVwsdkiJw4?si=VouUfBhRtgkmYNaE', title: 'Video 2' },
-  { src: 'https://www.youtube.com/embed/lhnrvhSVjFw?si=hVSJlFcZcv1q0Egd', title: 'Video 3' },
+  { src: 'https://www.youtube.com/embed/xKB9y9vL8tY?si=vb40HB8Ghaf4Lr6-', title: 'Video 3' },
 ];
 
 const VideoCarousel = () => {

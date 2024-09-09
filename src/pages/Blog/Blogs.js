@@ -46,7 +46,7 @@ const cards = [
   {
     id: 6,
     title: "Unlock the secrets of perfect skincare.",
-    imageUrl: "https://img.freepik.com/free-photo/pensive-beautiful-woman-with-makeup-brush_23-2148113155.jpg?t=st=1725359329~exp=1725362929~hmac=664464b4e1d55760429b26ce1985a445fa6f517f671cf4e2f727b56a38c64cad&w=1380",
+    imageUrl: "https://api.watsons.com.sg/api/v2/wtcsg/blog/wp-content/uploads/0704-Blog-Main-banner.jpg",
     url: "/details6",
     text:"Healthy, glowing skin starts with understanding your unique skin type. Knowing your skin type allows you to choose the right products, create an effective skincare routine, and address specific concerns. Whether your skin is oily, dry, combination, sensitive, or normal, each type of care for each one has its own set of characteristics and needs. ",
 
