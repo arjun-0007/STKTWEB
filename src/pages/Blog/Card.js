@@ -5,7 +5,7 @@ import "./Card.css";
 function Card({ imageSource, title, text, url }) {
   return (
     <div className="crd text-center bg-dark animate__animated animate__fadeInUp bak">
-      <div className="overflow"><br/>
+      <div className="overlow">
         <img src={imageSource} alt="a wallpaper" className="crd-img-top" />
       </div>
       <div className="crd-body text-light">
@@ -20,7 +20,7 @@ function Card({ imageSource, title, text, url }) {
           className="tn"
           rel="noreferrer"
         >
-          Go to {title}
+          <u>Explore More!</u>
         </a>
       </div>
     </div>

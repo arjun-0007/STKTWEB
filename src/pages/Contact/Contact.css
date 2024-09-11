@@ -55,8 +55,8 @@
     margin:auto;
     width:8rem;
     height:3rem;
-    color:white; 
-    background-color:blueviolet;
+    color:#3C3D37; 
+    background-color:white;
     font-size:1.5rem;
     margin-top:0.5rem;
     border-radius:1rem;
@@ -143,8 +143,6 @@
         margin:auto;
         width:5rem;
         height:2rem;
-        color:white; 
-        background-color:blueviolet;
         font-size:1rem;
         border-radius:0.5rem;
     }
@@ -202,8 +200,6 @@
     margin-left:3vw;
     width:6rem;
     height:3rem;
-    color:white; 
-    background-color:blueviolet;
     font-size:1.3rem;
     margin-top:0.5rem;
     border-radius:1rem;

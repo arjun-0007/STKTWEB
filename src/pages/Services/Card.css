@@ -1,0 +1,73 @@
+/* Card.css */
+
+/* Basic card styling */
+.crad {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 100%;
+    width: 300px;
+    /* margin: 20px; */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .crad:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .crad-image {
+    width: 100%;
+    height: 15rem;
+  }
+  
+  .crad-content {
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  .crad-title {
+    margin: auto;
+    font-size: 1.2em;
+    border-bottom: 3px solid grey;
+
+  }
+  
+  .crad-description {
+    margin: 0;
+    font-size: 1em;
+    color: #555;
+  }
+  
+  .card-footer {
+    padding: 16px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+  }
+  
+  .card-button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .crad-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 600px) {
+    .crad {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+  

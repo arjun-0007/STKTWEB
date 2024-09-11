@@ -15,7 +15,7 @@ const cards = [
   {
     id: 2,
     title: "Less is More: The Art of Nude Makeup",
-    imageUrl: "https://img.freepik.com/free-photo/pensive-beautiful-woman-with-makeup-brush_23-2148113155.jpg?t=st=1725359329~exp=1725362929~hmac=664464b4e1d55760429b26ce1985a445fa6f517f671cf4e2f727b56a38c64cad&w=1380",
+    imageUrl: "https://th.bing.com/th/id/OIP.vaUk1BWvA9zsZr934a2DKQHaEK?w=302&h=180&c=7&r=0&o=5&pid=1.7",
     url: "/details2",
     text:"Enhancing your Natural look with limited, understated makeup is the goal of nude makeup. It's a technique to use skin-tone neutral tones to create a sleek, invisible effect. The goal is to appear flawlessly graceful.Nude makeup is a classic option for people who like a natural look because it is elegant and versatile, suitable for both special occasions and everyday wear.  ",
 
@@ -66,13 +66,6 @@ function Blogs() {
           </div>
         ))}
       </div>
-      {/* <div className="rw">
-        {cards.map(({ title, image, url, id }) => (
-          <div className="col-md-4" key={id}>
-            <Card imageSource={image} title={title} url={url}/>
-          </div>
-        ))}
-      </div> */}
       <br/>
     </div>
     <Footer/>

@@ -2,7 +2,7 @@
   min-height: 100vh;
   width: 92vw;
   background: white;
-  color: #791dae;
+  color: black;
   padding:auto;
 }
 
@@ -48,11 +48,13 @@
 .heading{
   font-size:2.5rem;
   text-align:center;
+  color:black;
 }
 .daata{
   font-size:1.8rem;
   text-align:center;
   padding:auto;
+  color:black;
 }
 
 @media screen and (min-width: 320px) and (max-width: 426px) {

@@ -1,6 +1,15 @@
 .App{
     text-align: center;
     background-color: white;
+    padding:0.5rem;
+}
+.coub{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 5px;
+    box-sizing: border-box; /* Ensures padding is included in width */
+    overflow-x: hidden;
+
 }
 .AI{
     margin: auto;
